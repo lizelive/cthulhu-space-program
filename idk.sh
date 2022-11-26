@@ -1,0 +1,1 @@
+nix-shell --pure -p cargo -p gcc -p alsa-lib -p libudev-zero -p pkg-config --command 'cargo run'
